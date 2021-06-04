@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsAppTestTask3
 {
-    partial class Form1
+    partial class AdditionalForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.

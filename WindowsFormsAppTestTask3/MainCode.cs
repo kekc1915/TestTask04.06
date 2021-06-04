@@ -7,7 +7,7 @@ using System.Management.Instrumentation;
 
 namespace WindowsFormsAppTestTask3
 {
-    static class Program
+    static class MainCode
     {
         /// <summary>
         /// Главная точка входа для приложения.
@@ -31,7 +31,7 @@ namespace WindowsFormsAppTestTask3
         public DateTime ExpiresAt { get; set; }
     }
 
-    interface IAuthenticationService
+    public interface IAuthenticationService
     {
         /// <summary>
         /// Authenticates user.
@@ -53,7 +53,7 @@ namespace WindowsFormsAppTestTask3
         String AuthToken { get; }
     }
 
-    class User : IUser
+    public class User : IUser
     {
         private string _username;
         private string _password;
